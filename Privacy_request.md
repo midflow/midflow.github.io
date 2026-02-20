@@ -37,7 +37,7 @@
   ```
 
 - B. Qua form trực tuyến (nếu có):
-  - URL form: https://forms.gle/9wxhhW8M92QXbyhY9 (thay bằng URL bạn host)
+  - URL form: https://forms.gle/9wxhhW8M92QXbyhY9
   - Form yêu cầu: email, loại yêu cầu, mô tả, lựa chọn dữ liệu cần xóa.
 
 ## 4) Xác minh danh tính

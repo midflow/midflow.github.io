@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Quyền Riêng Tư (Privacy Policy) - EngCards</title>
+    <style>
+        :root {
+            --primary: #0D9488;
+            --primary-dark: #0F766E;
+            --primary-light: #CCFBF1;
+            --text-main: #0F172A;
+            --text-muted: #475569;
+            --bg-page: #F8FAFC;
+            --bg-card: #FFFFFF;
+            --border: #E2E8F0;
+            --accent: #2563EB;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+            padding: 40px;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 24px 18px;
+            }
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .app-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--primary-light);
+            color: var(--primary-dark);
+            font-weight: 600;
+            font-size: 0.875rem;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            margin-bottom: 14px;
+        }
+
+        h1 {
+            font-size: 1.85rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .meta-info {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .lang-switch-bar {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .lang-btn {
+            background: #F1F5F9;
+            border: 1px solid #CBD5E1;
+            padding: 6px 16px;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn.active {
+            background: var(--primary);
+            color: #FFFFFF;
+            border-color: var(--primary);
+        }
+
+        .highlight-box {
+            background: #F0FDF4;
+            border-left: 4px solid #16A34A;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 24px 0;
+            color: #14532D;
+            font-size: 0.95rem;
+        }
+
+        .highlight-box strong {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 1rem;
+        }
+
+        section {
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            font-size: 0.98rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 14px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 10px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .perm-card {
+            background: #F8FAFC;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px 18px;
+            margin-bottom: 12px;
+        }
+
+        .perm-card strong {
+            color: var(--text-main);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .footer {
+            border-top: 1px solid var(--border);
+            padding-top: 24px;
+            margin-top: 40px;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        .contact-email {
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="app-badge">
+            <span>🛡️ Chính Sách Bảo Mật Chính Thức</span>
+        </div>
+        <h1 id="page-title">Chính Sách Quyền Riêng Tư</h1>
+        <div class="meta-info">
+            <strong>Ứng dụng:</strong> EngCards: 3000 Từ tiếng Anh (Package: <code>com.midflow.engcards</code>)<br>
+            <strong>Nhà phát triển:</strong> MidFlow<br>
+            <strong>Ngày hiệu lực:</strong> 09/09/2026
+        </div>
+
+        <div class="lang-switch-bar">
+            <button class="lang-btn active" id="btn-vi" onclick="setLanguage('vi')">🇻🇳 Tiếng Việt</button>
+            <button class="lang-btn" id="btn-en" onclick="setLanguage('en')">🇬🇧 English</button>
+        </div>
+    </div>
+
+    <!-- PHIÊN BẢN TIẾNG VIỆT -->
+    <div id="content-vi">
+        <div class="highlight-box">
+            <strong>🔒 Cam kết cốt lõi: 100% Hoạt động Ngoại tuyến (Offline)</strong>
+            Ứng dụng EngCards hoạt động độc lập hoàn toàn trên thiết bị của bạn. Chúng tôi <strong>KHÔNG</strong> thu thập, <strong>KHÔNG</strong> lưu trữ trên máy chủ từ xa và <strong>KHÔNG</strong> chia sẻ bất kỳ thông tin cá nhân nào của bạn với bất kỳ bên thứ ba nào.
+        </div>
+
+        <section>
+            <h2>1. Thu thập & Sử dụng Dữ liệu</h2>
+            <p>EngCards được thiết kế với tiêu chí tôn trọng tối đa quyền riêng tư của người học:</p>
+            <ul>
+                <li><strong>Không yêu cầu tài khoản:</strong> Bạn có thể sử dụng đầy đủ 100% tính năng học tập, flashcard, kiểm tra, mini-game mà không cần đăng ký, đăng nhập hay cung cấp email/số điện thoại.</li>
+                <li><strong>Không thu thập dữ liệu định danh:</strong> Ứng dụng không thu thập tên, địa chỉ, vị trí GPS, danh bạ, ảnh hay tệp tin cá nhân.</li>
+                <li><strong>Dữ liệu học tập cục bộ:</strong> Toàn bộ điểm XP, huy hiệu, lịch sử ôn tập Spaced Repetition (SRS) và từ yêu thích được lưu trữ an toàn ngay trên bộ nhớ thiết bị của bạn thông qua cơ sở dữ liệu nội bộ SQLite (Room Database).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Quyền Truy Cập Thiết Bị (Device Permissions)</h2>
+            <p>Ứng dụng chỉ yêu cầu những quyền tối thiểu cần thiết để vận hành các tính năng học tập hữu ích:</p>
+
+            <div class="perm-card">
+                <strong>🎙️ Quyền Ghi Âm (RECORD_AUDIO)</strong>
+                Chỉ được kích hoạt khi bạn chủ động nhấn vào tính năng <em>"Luyện phát âm chuẩn IPA"</em>. Tín hiệu âm thanh giọng nói của bạn được phân tích và so sánh trực tiếp trên thiết bị (on-device) bởi thuật toán đánh giá phát âm. Chúng tôi <strong>không ghi âm lén, không lưu file âm thanh và không tải giọng nói của bạn lên bất kỳ máy chủ nào</strong>.
+            </div>
+
+            <div class="perm-card">
+                <strong>📳 Quyền Rung (VIBRATE)</strong>
+                Dùng để phản hồi xúc giác nhẹ nhàng (haptic feedback) khi bạn lật thẻ từ vựng, chọn đáp án đúng/sai hoặc hoàn thành bài học, mang lại trải nghiệm học tập sinh động và chân thực.
+            </div>
+
+            <div class="perm-card">
+                <strong>🔔 Quyền Thông Báo (POST_NOTIFICATIONS - Android 13+)</strong>
+                Dùng để gửi thông báo nhắc nhở lịch ôn tập từ vựng ngắt quãng (Spaced Repetition) hằng ngày do hệ thống trên máy bạn tự lên lịch cục bộ. Ứng dụng không sử dụng thông báo đẩy (push notifications) cho mục đích quảng cáo hoặc tiếp thị.
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Dịch Vụ Bên Thứ Ba & Mạng Quảng Cáo</h2>
+            <p>Ứng dụng tuân thủ nghiêm ngặt chính sách bảo vệ dữ liệu người dùng:</p>
+            <ul>
+                <li><strong>Không tích hợp SDK quảng cáo:</strong> Ứng dụng không chứa mã theo dõi hành vi người dùng, không chứa quảng cáo gây phiền toái.</li>
+                <li><strong>Không bán hoặc chia sẻ dữ liệu:</strong> Chúng tôi cam kết không kinh doanh, cho thuê hay trao đổi bất kỳ dữ liệu người dùng nào.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Quyền Riêng Tư Của Trẻ Em (Children's Privacy)</h2>
+            <p>Ứng dụng EngCards phù hợp cho mọi lứa tuổi, bao gồm cả học sinh và trẻ em theo học tiếng Anh. Chúng tôi hoàn toàn tuân thủ Đạo luật Bảo vệ Quyền riêng tư của Trẻ em trên Mạng (COPPA) và Chính sách Gia đình của Google Play. Do ứng dụng không thu thập bất kỳ dữ liệu cá nhân nào, phụ huynh hoàn toàn có thể an tâm cho con em học tập.</p>
+        </section>
+
+        <section>
+            <h2>5. Quyền Kiểm Soát & Xóa Dữ Liệu Của Người Dùng</h2>
+            <p>Vì toàn bộ tiến trình học tập được lưu cục bộ trên thiết bị của bạn:</p>
+            <ul>
+                <li>Bạn có toàn quyền xóa toàn bộ dữ liệu học tập bất kỳ lúc nào bằng cách vào <em>Cài đặt ứng dụng > Ứng dụng > EngCards > Xóa dữ liệu (Clear Data)</em>.</li>
+                <li>Gỡ cài đặt (Uninstall) ứng dụng sẽ tự động xóa sạch 100% dữ liệu đã lưu trên thiết bị mà không để lại bất kỳ dấu vết nào.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Thay Đổi Chính Sách</h2>
+            <p>Chúng tôi có thể cập nhật Chính sách Quyền riêng tư này theo thời gian để phù hợp với các nâng cấp tính năng mới hoặc yêu cầu pháp lý. Mọi thay đổi sẽ được cập nhật công khai ngay tại trang này với ngày hiệu lực mới nhất.</p>
+        </section>
+
+        <section>
+            <h2>7. Thông Tin Liên Hệ</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi, thắc mắc hoặc đóng góp ý kiến nào về Chính sách Quyền riêng tư của EngCards, xin vui lòng liên hệ với chúng tôi qua:</p>
+            <ul>
+                <li><strong>Đơn vị phát triển:</strong> MidFlow Team</li>
+                <li><strong>Email hỗ trợ:</strong> <a class="contact-email" href="mailto:support@midflow.dev">support@midflow.dev</a></li>
+                <li><strong>Ứng dụng:</strong> EngCards: 3000 Từ tiếng Anh (Android)</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- PHIÊN BẢN TIẾNG ANH (Dành cho Google Play Reviewers & Người dùng quốc tế) -->
+    <div id="content-en" class="hidden">
+        <div class="highlight-box">
+            <strong>🔒 Core Commitment: 100% Offline Application</strong>
+            EngCards operates entirely standalone on your device. We do <strong>NOT</strong> collect, do <strong>NOT</strong> store on remote servers, and do <strong>NOT</strong> share any of your personal information with any third parties.
+        </div>
+
+        <section>
+            <h2>1. Data Collection & Processing</h2>
+            <p>EngCards is engineered from the ground up with a privacy-first approach:</p>
+            <ul>
+                <li><strong>No account required:</strong> You can access 100% of study features, flashcards, quizzes, and games without signing up, logging in, or providing your email/phone number.</li>
+                <li><strong>No personal identifiable information collected:</strong> The app does not collect names, email addresses, precise GPS location, contacts, photos, or files.</li>
+                <li><strong>Local on-device storage:</strong> All study progress, XP points, badges, Spaced Repetition (SRS) schedules, and saved words are stored securely on your local device storage via an internal SQLite Room Database.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Device Permissions</h2>
+            <p>The app only requests strictly necessary permissions required for educational functionalities:</p>
+
+            <div class="perm-card">
+                <strong>🎙️ Record Audio (RECORD_AUDIO)</strong>
+                Only activated when you voluntarily initiate the <em>"IPA Pronunciation Practice"</em> feature. Voice audio is analyzed directly on your device in real-time by the pronunciation evaluation algorithm. We <strong>never record covertly, never save audio files, and never transmit your voice to external servers</strong>.
+            </div>
+
+            <div class="perm-card">
+                <strong>📳 Vibrate (VIBRATE)</strong>
+                Provides gentle haptic feedback when flipping flashcards, answering quiz questions, or completing lessons for an immersive tactile study experience.
+            </div>
+
+            <div class="perm-card">
+                <strong>🔔 Post Notifications (POST_NOTIFICATIONS - Android 13+)</strong>
+                Used strictly for scheduled local daily study reminders generated by the on-device alarm manager. We do not use remote push notifications for marketing, advertising, or profiling.
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Third-Party Services & Advertising</h2>
+            <ul>
+                <li><strong>No advertising SDKs:</strong> EngCards does not contain user-tracking SDKs or intrusive advertisements.</li>
+                <li><strong>No data selling or sharing:</strong> We never sell, rent, or distribute any user information.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Children's Privacy</h2>
+            <p>EngCards is suitable for all ages, including students and young learners. We comply with the Children's Online Privacy Protection Act (COPPA) and Google Play's Families Policy. Because no personal information is collected, parents and educators can feel completely confident using the app.</p>
+        </section>
+
+        <section>
+            <h2>5. User Data Control & Deletion</h2>
+            <p>Since all data is kept locally on your own device:</p>
+            <ul>
+                <li>You can erase all your study data at any time via <em>Android Settings > Apps > EngCards > Storage > Clear Data</em>.</li>
+                <li>Uninstalling the app immediately and permanently wipes 100% of stored data from your device.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Policy Updates</h2>
+            <p>We may update this Privacy Policy from time to time. Any modifications will be posted publicly on this page with an updated effective date.</p>
+        </section>
+
+        <section>
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions or feedback regarding this Privacy Policy, please contact:</p>
+            <ul>
+                <li><strong>Developer:</strong> MidFlow Team</li>
+                <li><strong>Support Email:</strong> <a class="contact-email" href="mailto:support@midflow.dev">support@midflow.dev</a></li>
+                <li><strong>App:</strong> EngCards: 3000 English Words (Android)</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 MidFlow. All rights reserved. • EngCards: 3000 Từ tiếng Anh
+    </div>
+</div>
+
+<script>
+    function setLanguage(lang) {
+        const viContent = document.getElementById('content-vi');
+        const enContent = document.getElementById('content-en');
+        const btnVi = document.getElementById('btn-vi');
+        const btnEn = document.getElementById('btn-en');
+        const pageTitle = document.getElementById('page-title');
+
+        if (lang === 'vi') {
+            viContent.classList.remove('hidden');
+            enContent.classList.add('hidden');
+            btnVi.classList.add('active');
+            btnEn.classList.remove('active');
+            pageTitle.innerText = "Chính Sách Quyền Riêng Tư";
+        } else {
+            viContent.classList.add('hidden');
+            enContent.classList.remove('hidden');
+            btnVi.classList.remove('active');
+            btnEn.classList.add('active');
+            pageTitle.innerText = "Privacy Policy";
+        }
+    }
+</script>
+
+</body>
+</html>

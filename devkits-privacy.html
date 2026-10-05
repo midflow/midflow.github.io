@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DevKits - Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto;
+    max-width: 46rem;
+    padding: 2.5rem 1.25rem 5rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.25rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.75rem; }
+  p, li { color: #333333; }
+  code {
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 0.1rem 0.35rem;
+    font-size: 0.92em;
+  }
+  a { color: #1565c0; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: #666666; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #121212; color: #f2f2f2; }
+    p, li { color: #d0d0d0; }
+    code { background: #242424; }
+    a { color: #90caf9; }
+    footer { color: #9e9e9e; }
+  }
+</style>
+</head>
+<body>
+<h1>DevKits privacy policy</h1>
+<p>_Last updated: 25 September 2026_</p>
+<h2>In one line</h2>
+<p>DevKits does not collect, transmit or share any personal data. Every tool runs entirely on your</p>
+<p>device.</p>
+<h2>What the app does with your data</h2>
+<ul>
+<li><strong>No account.</strong> There is no sign-up, no login and no user identifier.</li>
+<li><strong>No network.</strong> The application contains no network requests. It has no backend, no analytics SDK,</li>
+</ul>
+<p>  no crash reporter and no advertising SDK. The only way it can communicate is if a future release</p>
+<p>  adds that capability, which would be stated here first.</p>
+<ul>
+<li><strong>Local only.</strong> The text you paste and the results the tools produce stay in the app's local storage</li>
+</ul>
+<p>  on your device. Nothing is uploaded anywhere.</p>
+<h2>What is stored on your device</h2>
+<p>| Data | Where | Why |</p>
+<p>|------|-------|-----|</p>
+<p>| Recent history per tool | Local key-value storage | So you can re-open a previous result |</p>
+<p>| Favourites | Local key-value storage | So pinned tools stay pinned |</p>
+<p>| Saved tool chains | Local key-value storage | So reusable pipelines survive a restart |</p>
+<p>| Settings (theme, language) | Local key-value storage | So your preferences are remembered |</p>
+<p>History is never recorded for the AES tool, so a passphrase and its output are not written to storage.</p>
+<p>You can erase everything from <strong>Settings → Clear all data</strong>, or by uninstalling the app.</p>
+<p>Large entries in history are bounded: at most 20 entries per tool and about 1.5 MB in total, with the</p>
+<p>oldest entries dropped first.</p>
+<h2>Encryption</h2>
+<p>The AES tool encrypts text with AES-256-GCM and a key derived from your passphrase with Argon2id. All</p>
+<p>of that happens on your device. Your passphrase is never stored and cannot be recovered, so **if you</p>
+<p>forget it, the encrypted text cannot be decrypted by anyone, including us**.</p>
+<h2>Backup export</h2>
+<p><strong>Settings → Export backup</strong> copies a JSON file of your local data to the clipboard. That action is</p>
+<p>entirely under your control: whatever you do with the copied text afterwards is your choice, and it is</p>
+<p>no longer inside the app.</p>
+<h2>Permissions</h2>
+<p>The app requests no sensitive Android permissions. It does not use the camera, microphone, contacts,</p>
+<p>location or phone state.</p>
+<h2>Children</h2>
+<p>The app is a developer utility and is not directed at children. It collects no data from anyone.</p>
+<h2>Changes</h2>
+<p>If this policy ever changes, the new version will be published at the same URL and the date above will</p>
+<p>be updated. If a future release were to add any data collection, that change would be described here</p>
+<p>and in the Play Store data safety section before the release ships.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: _add a contact email before publishing_.</p>
+<footer>
+  <p>DevKits is an offline toolkit. This page is generated from docs/PRIVACY-POLICY.md in the source repository.</p>
+</footer>
+</body>
+</html>

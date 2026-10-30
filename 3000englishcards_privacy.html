@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head>
+<html lang="vi"><head><style data-zwork-preview-first-paint="1">html,body{opacity:1!important;visibility:visible!important}.rv,.reveal,.fade-in,.fade-up,.animate-in,[data-reveal],[data-animate]{opacity:1!important;visibility:visible!important;transform:none!important}</style>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chính Sách Quyền Riêng Tư (Privacy Policy) - EngCards</title>
@@ -202,7 +203,7 @@
         </div>
         <h1 id="page-title">Chính Sách Quyền Riêng Tư</h1>
         <div class="meta-info">
-            <strong>Ứng dụng:</strong> EngCards: 3000 Từ tiếng Anh<br>
+            <strong>Ứng dụng:</strong> EngCards: 3000 Từ tiếng Anh (Package: <code>com.midflow.engcards</code>)<br>
             <strong>Nhà phát triển:</strong> MidFlow<br>
             <strong>Ngày hiệu lực:</strong> 09/09/2026
         </div>
@@ -216,17 +217,20 @@
     <!-- PHIÊN BẢN TIẾNG VIỆT -->
     <div id="content-vi">
         <div class="highlight-box">
-            <strong>🔒 Cam kết cốt lõi: 100% Hoạt động Ngoại tuyến (Offline)</strong>
-            Ứng dụng EngCards hoạt động độc lập hoàn toàn trên thiết bị của bạn. Chúng tôi <strong>KHÔNG</strong> thu thập, <strong>KHÔNG</strong> lưu trữ trên máy chủ từ xa và <strong>KHÔNG</strong> chia sẻ bất kỳ thông tin cá nhân nào của bạn với bất kỳ bên thứ ba nào.
+            <strong>🔒 Cam kết cốt lõi: học tập trên thiết bị, AI là tuỳ chọn</strong>
+            Toàn bộ nội dung học, tiến độ và điểm số nằm trên thiết bị của bạn. Chúng tôi <strong>KHÔNG</strong> thu thập thông tin định danh, <strong>KHÔNG</strong> bán dữ liệu và <strong>KHÔNG</strong> chia sẻ thông tin cá nhân với bên thứ ba.
+            Ngoại lệ duy nhất là <strong>Trợ lý AI</strong> — mặc định <strong>TẮT</strong>; khi bạn chủ động bật, nội dung câu hỏi của bài học được gửi tới Google để sinh lời giải thích (xem mục 2.1).
+            Ngoại lệ thứ hai là <strong>Đồng bộ tài khoản Google</strong> — mặc định <strong>TẮT</strong>; chỉ khi bạn tự bấm “Đăng nhập” trong Cài đặt, tiến độ học mới được sao lưu vào tài khoản Google của chính bạn (xem mục 2.2).
         </div>
 
         <section>
-            <h2>1. Thu thập & Sử dụng Dữ liệu</h2>
+            <h2>1. Thu thập &amp; Sử dụng Dữ liệu</h2>
             <p>EngCards được thiết kế với tiêu chí tôn trọng tối đa quyền riêng tư của người học:</p>
             <ul>
-                <li><strong>Không yêu cầu tài khoản:</strong> Bạn có thể sử dụng đầy đủ 100% tính năng học tập, flashcard, kiểm tra, mini-game mà không cần đăng ký, đăng nhập hay cung cấp email/số điện thoại.</li>
+                <li><strong>Không bắt buộc tài khoản:</strong> Bạn có thể sử dụng đầy đủ 100% tính năng học tập, flashcard, kiểm tra, mini-game mà không cần đăng ký, đăng nhập hay cung cấp email/số điện thoại. Đăng nhập Google là <em>tuỳ chọn</em> và chỉ phục vụ sao lưu/khôi phục tiến độ khi đổi máy (mục 2.2).</li>
                 <li><strong>Không thu thập dữ liệu định danh:</strong> Ứng dụng không thu thập tên, địa chỉ, vị trí GPS, danh bạ, ảnh hay tệp tin cá nhân.</li>
                 <li><strong>Dữ liệu học tập cục bộ:</strong> Toàn bộ điểm XP, huy hiệu, lịch sử ôn tập Spaced Repetition (SRS) và từ yêu thích được lưu trữ an toàn ngay trên bộ nhớ thiết bị của bạn thông qua cơ sở dữ liệu nội bộ SQLite (Room Database).</li>
+                <li><strong>Báo cáo sự cố (Crashlytics):</strong> Nếu ứng dụng gặp lỗi, một báo cáo kỹ thuật được gửi tới Google Firebase Crashlytics gồm: dấu vết lỗi (stack trace) và thông điệp ngoại lệ, kiểu máy · kiến trúc CPU · phiên bản Android, phiên bản ứng dụng, thời điểm xảy ra lỗi, và mã cài đặt ẩn danh (Crashlytics Installation UUID, Firebase installation ID) dùng để đếm số người bị ảnh hưởng. Báo cáo <strong>không</strong> chứa từ bạn đang học, câu trả lời, điểm số hay bản ghi âm. Mục đích duy nhất là tìm và sửa lỗi; Google giữ dữ liệu này 90 ngày rồi xoá.</li>
             </ul>
         </section>
 
@@ -250,8 +254,33 @@
             </div>
         </section>
 
+
         <section>
-            <h2>3. Dịch Vụ Bên Thứ Ba & Mạng Quảng Cáo</h2>
+            <h2>2.1. Trợ lý AI (tuỳ chọn, mặc định TẮT)</h2>
+            <p>Các tính năng học tập cốt lõi (flashcard, ôn SRS, chính tả, nghe, viết offline) chạy hoàn toàn trên thiết bị.
+            Riêng <em>Trợ lý AI</em> là tính năng tuỳ chọn:</p>
+            <ul>
+                <li><strong>Khi bạn bật:</strong> nội dung câu hỏi/đáp án của bài học — với phần phát âm là <em>chữ đã nhận dạng</em>, không phải âm thanh — được gửi tới <strong>Firebase AI Logic (Google)</strong> để sinh lời giải thích.</li>
+                <li><strong>Không gửi:</strong> âm thanh ghi âm, danh bạ, vị trí hay tệp cá nhân. Nội dung gửi tới AI không kèm email/tên tài khoản, kể cả khi bạn đã đăng nhập Google để đồng bộ.</li>
+                <li><strong>Bộ nhớ đệm AI:</strong> câu trả lời có thể được lưu vào bộ nhớ đệm dùng chung để giảm chi phí. Ở bản phát hành này, ứng dụng <strong>chỉ đọc</strong> bộ nhớ đệm đó và <strong>không ghi</strong> nội dung mới.</li>
+                <li><strong>Tắt bất cứ lúc nào:</strong> Cài đặt → AI &amp; khẩu hình. Tắt xong thì không có dữ liệu nào được gửi đi.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2.2. Đồng bộ tài khoản Google (tuỳ chọn, mặc định TẮT)</h2>
+            <p>Đồng bộ là tính năng <strong>tuỳ chọn</strong>. Không đăng nhập thì tiến độ chỉ nằm trên máy và bạn vẫn dùng được mọi tính năng.</p>
+            <ul>
+                <li><strong>Khi bạn bấm “Đăng nhập” trong Cài đặt:</strong> Google trả về một <em>ID token</em>; ứng dụng đổi token đó thành tài khoản Firebase và lưu <strong>uid + email</strong> để biết bản sao lưu thuộc về ai.</li>
+                <li><strong>Dữ liệu được sao lưu:</strong> một tệp JSON gồm hồ sơ học (tên hiển thị, XP, chuỗi ngày, mục tiêu), tiến độ từng từ (SRS, thành thạo, đúng/sai, yêu thích) và các bộ thẻ tự tạo. Tệp được lưu trong cơ sở dữ liệu <strong>Cloud Firestore (Google)</strong> tại đường dẫn <code>users/&lt;uid&gt;</code>.</li>
+                <li><strong>Ai đọc được:</strong> chỉ tài khoản Google của bạn. Quy tắc bảo mật của cơ sở dữ liệu chặn mọi người khác, kể cả khi họ biết uid; nhà phát triển không có giao diện đọc dữ liệu người dùng.</li>
+                <li><strong>Không gửi lên mây:</strong> âm thanh ghi âm, danh bạ, vị trí, tệp trong máy. Chỉ đúng tệp JSON tiến độ nêu trên.</li>
+                <li><strong>Xoá bất cứ lúc nào:</strong> “Đăng xuất” ngừng đồng bộ trên máy này; nút <em>“Xoá bản trên tài khoản”</em> xoá hẳn bản sao lưu trên Firestore (tiến độ trên máy vẫn giữ nguyên).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Dịch Vụ Bên Thứ Ba &amp; Mạng Quảng Cáo</h2>
             <p>Ứng dụng tuân thủ nghiêm ngặt chính sách bảo vệ dữ liệu người dùng:</p>
             <ul>
                 <li><strong>Không tích hợp SDK quảng cáo:</strong> Ứng dụng không chứa mã theo dõi hành vi người dùng, không chứa quảng cáo gây phiền toái.</li>
@@ -261,15 +290,16 @@
 
         <section>
             <h2>4. Quyền Riêng Tư Của Trẻ Em (Children's Privacy)</h2>
-            <p>Ứng dụng EngCards phù hợp cho mọi lứa tuổi, bao gồm cả học sinh và trẻ em theo học tiếng Anh. Chúng tôi hoàn toàn tuân thủ Đạo luật Bảo vệ Quyền riêng tư của Trẻ em trên Mạng (COPPA) và Chính sách Gia đình của Google Play. Do ứng dụng không thu thập bất kỳ dữ liệu cá nhân nào, phụ huynh hoàn toàn có thể an tâm cho con em học tập.</p>
+            <p>Ứng dụng EngCards phù hợp cho mọi lứa tuổi, bao gồm cả học sinh và trẻ em theo học tiếng Anh. Chúng tôi tuân thủ Đạo luật Bảo vệ Quyền riêng tư của Trẻ em trên Mạng (COPPA) và Chính sách Gia đình của Google Play. Ứng dụng không bắt buộc tài khoản và không thu thập dữ liệu định danh khi học offline; nếu phụ huynh không muốn con dùng tính năng đồng bộ, chỉ cần không đăng nhập Google — mọi tính năng học vẫn hoạt động đầy đủ.</p>
         </section>
 
         <section>
-            <h2>5. Quyền Kiểm Soát & Xóa Dữ Liệu Của Người Dùng</h2>
+            <h2>5. Quyền Kiểm Soát &amp; Xóa Dữ Liệu Của Người Dùng</h2>
             <p>Vì toàn bộ tiến trình học tập được lưu cục bộ trên thiết bị của bạn:</p>
             <ul>
-                <li>Bạn có toàn quyền xóa toàn bộ dữ liệu học tập bất kỳ lúc nào bằng cách vào <em>Cài đặt ứng dụng > Ứng dụng > EngCards > Xóa dữ liệu (Clear Data)</em>.</li>
+                <li>Bạn có toàn quyền xóa toàn bộ dữ liệu học tập bất kỳ lúc nào bằng cách vào <em>Cài đặt ứng dụng &gt; Ứng dụng &gt; EngCards &gt; Xóa dữ liệu (Clear Data)</em>.</li>
                 <li>Gỡ cài đặt (Uninstall) ứng dụng sẽ tự động xóa sạch 100% dữ liệu đã lưu trên thiết bị mà không để lại bất kỳ dấu vết nào.</li>
+                <li>Bản sao lưu trên tài khoản Google: vào <em>Cài đặt → Đồng bộ tiến độ → Xoá bản trên tài khoản</em> để xoá hẳn dữ liệu trên Firestore. “Đăng xuất” chỉ ngừng đồng bộ trên máy này, không xoá bản trên mây.</li>
             </ul>
         </section>
 
@@ -292,17 +322,20 @@
     <!-- PHIÊN BẢN TIẾNG ANH (Dành cho Google Play Reviewers & Người dùng quốc tế) -->
     <div id="content-en" class="hidden">
         <div class="highlight-box">
-            <strong>🔒 Core Commitment: 100% Offline Application</strong>
-            EngCards operates entirely standalone on your device. We do <strong>NOT</strong> collect, do <strong>NOT</strong> store on remote servers, and do <strong>NOT</strong> share any of your personal information with any third parties.
+            <strong>🔒 Core Commitment: on-device learning, optional AI</strong>
+            All study content, progress and scores stay on your device. We do <strong>NOT</strong> collect identifying information, do <strong>NOT</strong> sell data, and do <strong>NOT</strong> share personal information with third parties.
+            The only exception is the <strong>AI Assistant</strong>, which is <strong>OFF</strong> by default; when you enable it, lesson question content is sent to Google to generate explanations (see section 2.1).
+            The second exception is <strong>Google account sync</strong>, also <strong>OFF</strong> by default: only when you tap “Sign in” in Settings is your study progress backed up to your own Google account (see section 2.2).
         </div>
 
         <section>
-            <h2>1. Data Collection & Processing</h2>
+            <h2>1. Data Collection &amp; Processing</h2>
             <p>EngCards is engineered from the ground up with a privacy-first approach:</p>
             <ul>
-                <li><strong>No account required:</strong> You can access 100% of study features, flashcards, quizzes, and games without signing up, logging in, or providing your email/phone number.</li>
+                <li><strong>No account required:</strong> You can access 100% of study features, flashcards, quizzes, and games without signing up, logging in, or providing your email/phone number. Google sign-in is <em>optional</em> and only used to back up/restore progress when switching devices (section 2.2).</li>
                 <li><strong>No personal identifiable information collected:</strong> The app does not collect names, email addresses, precise GPS location, contacts, photos, or files.</li>
                 <li><strong>Local on-device storage:</strong> All study progress, XP points, badges, Spaced Repetition (SRS) schedules, and saved words are stored securely on your local device storage via an internal SQLite Room Database.</li>
+                <li><strong>Crash reports (Crashlytics):</strong> If the app crashes, a technical report is sent to Google Firebase Crashlytics containing the stack trace and exception message, device model · CPU architecture · Android version, app version, the time of the crash, and anonymous installation identifiers (Crashlytics Installation UUID, Firebase installation ID) used to count affected users. It does <strong>not</strong> include the words you study, your answers, scores or audio recordings. Its only purpose is to find and fix defects; Google retains this data for 90 days and then deletes it.</li>
             </ul>
         </section>
 
@@ -326,8 +359,33 @@
             </div>
         </section>
 
+
         <section>
-            <h2>3. Third-Party Services & Advertising</h2>
+            <h2>2.1. AI Assistant (optional, OFF by default)</h2>
+            <p>Core learning features (flashcards, SRS review, spelling, listening, offline writing) run entirely on the device.
+            The <em>AI Assistant</em> is optional:</p>
+            <ul>
+                <li><strong>When enabled:</strong> lesson question/answer content — for pronunciation, the <em>recognized text</em>, never the audio — is sent to <strong>Firebase AI Logic (Google)</strong> to generate an explanation.</li>
+                <li><strong>Never sent:</strong> recorded audio, contacts, location or personal files. AI requests never include your email or account name, even if you signed in for sync.</li>
+                <li><strong>AI cache:</strong> answers may be kept in a shared cache to reduce cost. In this release the app <strong>only reads</strong> that cache and <strong>does not write</strong> new content.</li>
+                <li><strong>Turn it off anytime:</strong> Settings → AI &amp; voice. Once off, no data is sent.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2.2. Google account sync (optional, OFF by default)</h2>
+            <p>Sync is <strong>optional</strong>. Without signing in, progress stays on your device and every feature still works.</p>
+            <ul>
+                <li><strong>When you tap “Sign in” in Settings:</strong> Google returns an <em>ID token</em>; the app exchanges it for a Firebase account and stores <strong>uid + email</strong> to know who owns the backup.</li>
+                <li><strong>What is backed up:</strong> a JSON file containing your learner profile (display name, XP, streak, daily goal), per-word progress (SRS, mastery, correct/wrong counts, favourites) and custom decks. It is stored in <strong>Cloud Firestore (Google)</strong> at <code>users/&lt;uid&gt;</code>.</li>
+                <li><strong>Who can read it:</strong> only your own Google account. Database security rules reject everyone else even if they know the uid; the developer has no interface to read user data.</li>
+                <li><strong>Never uploaded:</strong> recorded audio, contacts, location or files on your device. Only the progress JSON above.</li>
+                <li><strong>Delete anytime:</strong> “Sign out” stops syncing on this device; the <em>“Delete cloud copy”</em> button permanently deletes the Firestore backup (on-device progress is kept).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Third-Party Services &amp; Advertising</h2>
             <ul>
                 <li><strong>No advertising SDKs:</strong> EngCards does not contain user-tracking SDKs or intrusive advertisements.</li>
                 <li><strong>No data selling or sharing:</strong> We never sell, rent, or distribute any user information.</li>
@@ -336,15 +394,16 @@
 
         <section>
             <h2>4. Children's Privacy</h2>
-            <p>EngCards is suitable for all ages, including students and young learners. We comply with the Children's Online Privacy Protection Act (COPPA) and Google Play's Families Policy. Because no personal information is collected, parents and educators can feel completely confident using the app.</p>
+            <p>EngCards is suitable for all ages, including students and young learners. We comply with the Children's Online Privacy Protection Act (COPPA) and Google Play's Families Policy. The app requires no account and collects no identifying data for offline study; if a parent does not want sync, simply do not sign in with Google — all learning features remain fully available.</p>
         </section>
 
         <section>
-            <h2>5. User Data Control & Deletion</h2>
+            <h2>5. User Data Control &amp; Deletion</h2>
             <p>Since all data is kept locally on your own device:</p>
             <ul>
-                <li>You can erase all your study data at any time via <em>Android Settings > Apps > EngCards > Storage > Clear Data</em>.</li>
+                <li>You can erase all your study data at any time via <em>Android Settings &gt; Apps &gt; EngCards &gt; Storage &gt; Clear Data</em>.</li>
                 <li>Uninstalling the app immediately and permanently wipes 100% of stored data from your device.</li>
+                <li>Cloud backup: go to <em>Settings → Progress sync → Delete cloud copy</em> to permanently erase the Firestore backup. “Sign out” only stops syncing on this device; it does not delete the cloud copy.</li>
             </ul>
         </section>
 
@@ -358,14 +417,14 @@
             <p>If you have any questions or feedback regarding this Privacy Policy, please contact:</p>
             <ul>
                 <li><strong>Developer:</strong> MidFlow Team</li>
-                <li><strong>Support Email:</strong> <a class="contact-email" href="mailto:thanhtrung.h3t@gmail.com">thanhtrung.h3t@gmail.com</a></li>
+                <li><strong>Support Email:</strong> <a class="contact-email" href="mailto:support@midflow.dev">support@midflow.dev</a></li>
                 <li><strong>App:</strong> EngCards: 3000 English Words (Android)</li>
             </ul>
         </section>
     </div>
 
     <div class="footer">
-        &copy; 2026 MidFlow. All rights reserved. • EngCards: 3000 Từ tiếng Anh
+        © 2026 MidFlow. All rights reserved. • EngCards: 3000 Từ tiếng Anh
     </div>
 </div>
 
@@ -393,5 +452,6 @@
     }
 </script>
 
-</body>
-</html>
+
+
+<script data-zwork-preview-chrome="1">(function(){var SOURCE="zwork-html-preview";var mode="idle";var device="canvas";var lastTokens=null;var selected=null;var activeEditor=null;var clickTimer=null;var SUBJECT_ROOT_SELECTOR="main,#app,#root,.app,.page,.screen,.layout,.dashboard,.prototype,.mockup,.phone,.mobile,.device,.window,.shell,[data-screen-label],[data-slide],[data-deck-slide],.slide,[class*=\"app\"],[class*=\"page\"],[class*=\"screen\"],[class*=\"layout\"],[class*=\"dashboard\"],[class*=\"prototype\"],[class*=\"mockup\"],[class*=\"phone\"],[class*=\"mobile\"],[class*=\"device\"],[class*=\"window\"],[class*=\"shell\"]";var CANVAS_EXCLUDED_ROOT_SELECTOR="main,#app,#root,.app,.page,.layout,.dashboard,.shell,[class*=\"app\"],[class*=\"page\"],[class*=\"layout\"],[class*=\"dashboard\"],[class*=\"shell\"]";var SLIDE_SELECTOR="section[class~=\"slide\" i], section[data-slide], section[data-deck-slide], section[data-screen-label], div[class~=\"slide\" i], div[data-slide], div[data-deck-slide], div[data-screen-label], article[class~=\"slide\" i], article[data-slide], article[data-deck-slide], article[data-screen-label]";var ACCENTS={green:"#34c673",blue:"#3762e8",orange:"#efa046",red:"#de5134",violet:"#7d56ee",pink:"#e2458a",teal:"#22adc8",lime:"#cbec5a"};var FONTS={sans:"system-ui,-apple-system,PingFang SC,sans-serif",serif:"Georgia,Songti SC,serif",mono:"ui-monospace,SFMono-Regular,Menlo,monospace"};var SCALES={compact:"1.125",standard:"1.25",spacious:"1.414"};var DENSITIES={sparse:"1.35",loose:"1.15",normal:"1",rich:"0.85",dense:"0.7"};var MOTIONS={light:"0.5",fluid:"1",active:"1.5"};function post(payload){try{parent.postMessage(Object.assign({source:SOURCE},payload),"*");}catch(_err){}}function selectorOf(el){  if(!el||!el.tagName)return "";  var od=el.getAttribute&&el.getAttribute("data-od-id");  if(od)return "[data-od-id=\""+od.replace(/"/g,"")+"\"]";  if(el.id)return "#"+el.id;  var cls=(typeof el.className==="string"&&el.className.trim())    ?"."+el.className.trim().split(/\s+/).slice(0,2).join("."):"";  return el.tagName.toLowerCase()+cls;}function rgbToHex(value){  if(!value||value==="transparent"||value==="rgba(0, 0, 0, 0)")return "";  var m=String(value).match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);  if(!m)return value;  return "#"+[m[1],m[2],m[3]].map(function(n){var h=Number(n).toString(16);return h.length<2?"0"+h:h;}).join("");}function stylesOf(el,rect){  var cs=window.getComputedStyle(el);  if(!cs)return {};  return {    fontFamily:cs.fontFamily,fontSize:cs.fontSize,fontWeight:cs.fontWeight,    color:rgbToHex(cs.color),textAlign:cs.textAlign,lineHeight:cs.lineHeight,    letterSpacing:cs.letterSpacing,width:Math.round(rect.width)+"px",height:Math.round(rect.height)+"px",    backgroundColor:rgbToHex(cs.backgroundColor),opacity:cs.opacity,borderRadius:cs.borderTopLeftRadius,    borderWidth:cs.borderTopWidth,borderColor:rgbToHex(cs.borderTopColor),padding:cs.padding,margin:cs.margin  };}function geometryOf(el,event){  var rect=el.getBoundingClientRect();  return {    selector:selectorOf(el),    text:(el.textContent||"").replace(/\s+/g," ").trim().slice(0,80),    label:((el.textContent||"").replace(/\s+/g," ").trim()||el.tagName).slice(0,48),    canEditText:canEditText(el),    rect:{x:Math.round(rect.x),y:Math.round(rect.y),width:Math.round(rect.width),height:Math.round(rect.height)},    point:event?{x:Math.round(event.clientX),y:Math.round(event.clientY)}:{x:Math.round(rect.x+rect.width),y:Math.round(rect.y)},    styles:stylesOf(el,rect)  };}function canEditText(el){  if(!el||!el.tagName)return false;  var tag=el.tagName.toLowerCase();  if(tag==="img"||tag==="svg"||tag==="canvas"||tag==="video")return false;  var kids=el.children?el.children.length:0;  return kids===0&&Boolean((el.textContent||"").trim());}function findCanvasScreenFrames(){  if(!document.body)return [];  var canvasW=document.documentElement.clientWidth||0;  var picked=[],all=document.body.querySelectorAll("div,section,article,aside");  for(var i=0;i<all.length;i++){    var el=all[i],rect=el.getBoundingClientRect();    if(rect.height<360||rect.width<200||rect.width>canvasW*0.85)continue;    var cs=window.getComputedStyle(el);    if(!cs||cs.visibility==="hidden"||cs.display==="none"||cs.opacity==="0"||cs.display==="inline")continue;    var radius=Math.max(parseFloat(cs.borderTopLeftRadius)||0,parseFloat(cs.borderTopRightRadius)||0);    var bg=cs.backgroundColor,hasBg=bg&&bg!=="transparent"&&bg!=="rgba(0, 0, 0, 0)";    if(!hasBg&&radius<12)continue;    if(picked.some(function(p){return p.contains(el);}))continue;    picked.push(el);    if(picked.length>=40)break;  }  return picked;}function tokenTargets(){  if(device!=="canvas"||!document.body)return [document.documentElement];  var roots=Array.prototype.slice.call(document.body.querySelectorAll(SUBJECT_ROOT_SELECTOR));  var framed=[];  roots.forEach(function(el){    if(el&&el.matches&&!el.matches(CANVAS_EXCLUDED_ROOT_SELECTOR))framed.push(el);  });  findCanvasScreenFrames().forEach(function(el){    if(framed.indexOf(el)<0)framed.push(el);  });  return framed;}function paintTokens(target,v){  if(ACCENTS[v.accent])target.style.setProperty("--zwork-preview-accent",ACCENTS[v.accent]);  target.style.setProperty("--zwork-preview-mode",v.mode==="dark"?"dark":"light");  target.style.colorScheme=v.mode==="dark"?"dark":"light";  if(FONTS[v.font])target.style.setProperty("--zwork-preview-font-family",FONTS[v.font]);  if(SCALES[v.typeScale])target.style.setProperty("--zwork-preview-type-scale",SCALES[v.typeScale]);  if(DENSITIES[v.density])target.style.setProperty("--zwork-preview-density",DENSITIES[v.density]);  if(MOTIONS[v.motion])target.style.setProperty("--zwork-preview-motion",MOTIONS[v.motion]);}function applyTokens(v){  if(!v)return;  lastTokens=v;  var root=document.documentElement;  if(device==="canvas"){    if(root){root.style.colorScheme="";root.style.removeProperty("--zwork-preview-mode");}    if(document.body){document.body.style.fontFamily="";document.body.style.padding="";}    tokenTargets().forEach(function(target){paintTokens(target,v);});    return;  }  if(!root)return;  paintTokens(root,v);  if(document.body){    if(FONTS[v.font])document.body.style.fontFamily=FONTS[v.font];    if(v.density==="dense")document.body.style.padding="6px";    else if(v.density==="rich")document.body.style.padding="10px";    else if(v.density==="loose")document.body.style.padding="24px";    else if(v.density==="sparse")document.body.style.padding="36px";    else document.body.style.padding="";  }}function applyEdits(edits,reportSource){  try{    for(var i=0;i<edits.length;i++){      var el=document.querySelector(String(edits[i]&&edits[i].selector||""));      if(el)el.textContent=String(edits[i].text||"");    }    if(reportSource)post({type:"source",html:"<!DOCTYPE html>\n"+document.documentElement.outerHTML});  }catch(_err){}}function applyStyle(selector,styles){  var el=document.querySelector(String(selector||""));  if(!el||!el.style||!styles)return;  Object.keys(styles).forEach(function(prop){    var value=styles[prop];    if(typeof value!=="string")return;    el.style[prop]=value;  });}function markSelected(el){  document.querySelectorAll("[data-zwork-preview-selected]").forEach(function(node){    node.removeAttribute("data-zwork-preview-selected");  });  selected=el||null;  if(el)el.setAttribute("data-zwork-preview-selected","true");}function stopEditing(commit){  if(!activeEditor)return;  var state=activeEditor;  activeEditor=null;  state.el.removeAttribute("contenteditable");  state.el.removeAttribute("data-zwork-preview-editing");  state.el.removeEventListener("blur",state.onBlur);  state.el.removeEventListener("keydown",state.onKeyDown);  state.el.removeEventListener("input",state.onInput);  if(!commit){state.el.textContent=state.original;return;}  post({type:"text-commit",selector:state.selector,text:state.el.textContent||"",original:state.original,draft:false});}function beginTextEdit(el){  if(!canEditText(el))return;  stopEditing(true);  var selector=selectorOf(el);  var original=el.textContent||"";  var onBlur=function(){stopEditing(true);};  var onInput=function(){post({type:"text-commit",selector:selector,text:el.textContent||"",original:original,draft:true});};  var onKeyDown=function(event){    event.stopPropagation();    if(event.key==="Escape"){event.preventDefault();stopEditing(false);return;}    if(event.key==="Enter"&&!event.shiftKey){event.preventDefault();stopEditing(true);}  };  activeEditor={el:el,selector:selector,original:original,onBlur:onBlur,onInput:onInput,onKeyDown:onKeyDown};  el.setAttribute("contenteditable","true");  el.setAttribute("data-zwork-preview-editing","true");  el.addEventListener("blur",onBlur);  el.addEventListener("input",onInput);  el.addEventListener("keydown",onKeyDown);  el.focus({preventScroll:true});}function slideNodes(){  return document.querySelectorAll(SLIDE_SELECTOR);}function reportDeck(){  var slides=slideNodes();  var active=0;  for(var i=0;i<slides.length;i++){    if(slides[i].getAttribute("data-zwork-slide-active")==="true")active=i;  }  post({type:"deck-info",isDeck:slides.length>0,count:slides.length});  if(slides.length>0)post({type:"slide-state",active:active,count:slides.length});}function showSlide(index){  var slides=slideNodes();  if(slides.length===0)return;  var next=Math.max(0,Math.min(slides.length-1,index));  for(var i=0;i<slides.length;i++){    var on=i===next;    slides[i].style.display=on?"":"none";    slides[i].setAttribute("data-zwork-slide-active",on?"true":"false");  }  post({type:"slide-state",active:next,count:slides.length});}function currentSlideIndex(){  var slides=slideNodes();  for(var i=0;i<slides.length;i++){    if(slides[i].getAttribute("data-zwork-slide-active")==="true")return i;  }  return 0;}window.addEventListener("message",function(ev){  var data=ev.data;  if(!data||data.source!==SOURCE)return;  if(data.type==="set-mode"){mode=data.mode==="pin"||data.mode==="edit"?data.mode:"idle";if(mode==="idle")stopEditing(true);}  if(data.type==="apply-tokens")applyTokens(data.vars);  if(data.type==="set-device"){device=typeof data.device==="string"?data.device:"canvas";if(lastTokens)applyTokens(lastTokens);}  if(data.type==="request-source"){try{post({type:"source",html:"<!DOCTYPE html>\n"+document.documentElement.outerHTML});}catch(_err){}}  if(data.type==="edit-elements"&&Object.prototype.toString.call(data.edits)==="[object Array]")applyEdits(data.edits,data.reportSource===true);  if(data.type==="style-preview")applyStyle(data.selector,data.styles);  if(data.type==="text-preview"&&typeof data.selector==="string"){    var target=document.querySelector(data.selector);    if(target)target.textContent=String(data.text||"");  }  if(data.type==="slide-control"){    var count=slideNodes().length;    if(data.action==="prev")showSlide(currentSlideIndex()-1);    else if(data.action==="next")showSlide(currentSlideIndex()+1);    else if(data.action==="go")showSlide(Number(data.index)||0);    else if(data.action==="first")showSlide(0);    else if(data.action==="last")showSlide(count-1);  }  if(data.type==="request-deck")reportDeck();  if(data.type==="capture-figma"){    try{post({type:"figma-capture",html:"<!DOCTYPE html>\n"+document.documentElement.outerHTML});}catch(_err){}  }});document.addEventListener("wheel",function(e){  if(!e.ctrlKey&&!e.metaKey)return;  e.preventDefault();  post({type:"wheel-zoom",deltaY:e.deltaY});},{passive:false});document.addEventListener("click",function(e){  if(mode==="idle"||activeEditor)return;  var el=e.target;  if(!(el instanceof Element))return;  e.preventDefault();  e.stopPropagation();  if(mode==="pin"){    markSelected(el);    post(Object.assign({type:"pin"},geometryOf(el,e)));    return;  }  if(clickTimer){window.clearTimeout(clickTimer);clickTimer=null;}  clickTimer=window.setTimeout(function(){    clickTimer=null;    markSelected(el);    var geo=geometryOf(el,e);    post(Object.assign({type:"pick"},geo));    post(Object.assign({type:"select"},geo));  },220);},true);document.addEventListener("dblclick",function(e){  if(mode!=="edit")return;  var el=e.target;  if(!(el instanceof Element))return;  if(clickTimer){window.clearTimeout(clickTimer);clickTimer=null;}  e.preventDefault();  e.stopPropagation();  markSelected(el);  post(Object.assign({type:"pick"},geometryOf(el,e)));  beginTextEdit(el);},true);if(document.readyState==="complete"||document.readyState==="interactive")reportDeck();else document.addEventListener("DOMContentLoaded",reportDeck);})();</script></body></html>
